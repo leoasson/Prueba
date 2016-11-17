@@ -8,7 +8,7 @@ import View.BeatObserver;
 import View.MatrizObserver;
 
 public class BridgeCraneModel implements BridgeCraneModelInterface, Runnable {
-	//prueba
+	
 	ArrayList<BeatObserver> beatObservers = new ArrayList<BeatObserver>();
 	ArrayList<BPMObserver> bpmObservers = new ArrayList<BPMObserver>();
 	ArrayList<MatrizObserver> matrizObservers= new ArrayList<MatrizObserver>();
