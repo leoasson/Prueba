@@ -12,7 +12,7 @@ public class BridgeCraneModel implements BridgeCraneModelInterface, Runnable {
 	ArrayList<BeatObserver> beatObservers = new ArrayList<BeatObserver>();
 	ArrayList<BPMObserver> bpmObservers = new ArrayList<BPMObserver>();
 	ArrayList<MatrizObserver> matrizObservers= new ArrayList<MatrizObserver>();
-	int bpm = -10;
+	int bpm = -10
 	int [][] matriz;
 	int filas=8;
 	int columnas=8;
